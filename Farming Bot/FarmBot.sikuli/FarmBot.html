@@ -1,0 +1,204 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>FarmBot.sikuli</h2> <a href="FarmBot.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+App.open (<span class="str">"C:\ProgramData\BlueStacks\Client\Bluestacks.exe"</span>)
+<span class="skw">wait</span> (<span class="dig">20</span>)
+<span class="skw">click</span>(<img src="1504412313757.png" />)
+<span class="skw">find</span>(<img src="1504412330570.png" />)
+<span class="skw">click</span>(<img src="1504412330570.png" />)
+<span class="skw">wait</span> (<span class="dig">15</span>)
+<span class="kw">if</span> exists (<img src="1504412387963.png" />):
+    <span class="skw">click</span>(<img src="1504412387963.png" />)
+<span class="kw">if</span> exists(<img src="1504414485999.png" />):
+    <span class="skw">click</span> (<img src="1504414485999.png" />)
+    <span class="skw">click</span>(<img src="1504413314471.png" />)
+    <span class="skw">click</span>(<img src="1504413348477.png" />)
+    <span class="skw">click</span>(<img src="1504413376286.png" />)
+<span class="kw">if</span> exists(<img src="1504414253467.png" />):
+    <span class="skw">click</span>(<img src="1504414261073.png" />)
+    <span class="skw">click</span>(<img src="1504414270755.png" />)
+    <span class="skw">click</span>(<img src="1504578287253.png" />)
+<span class="skw">find</span>(<img src="1504415265268.png" />)
+<span class="skw">click</span>(<img src="1504415272835.png" />)
+<span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">2</span>):
+    <span class="skw">click</span>(<img src="1504574044303.png" />)
+    <span class="skw">click</span>(<img src="1504574071179.png" />)
+    <span class="skw">click</span>(<img src="1504574084403.png" />)
+    <span class="skw">click</span>(<img src="1504574094058.png" />)
+    <span class="skw">click</span>(<img src="1504574101139.png" />)
+    <span class="skw">click</span>(<img src="1504574113372.png" />)
+    <span class="skw">click</span>(<img src="1504574126632.png" />)
+    <span class="skw">click</span>(<img src="1504574084403.png" />)
+    <span class="skw">click</span>(<img src="1504574094058.png" />)
+    <span class="skw">click</span>(<img src="1504574101139.png" />)
+    <span class="skw">click</span>(<img src="1504574113372.png" />)
+    <span class="skw">click</span>(<img src="1504574169505.png" />)
+    <span class="skw">click</span>(<img src="1504574188494.png" />)
+    <span class="skw">find</span>(<img src="1504574750117.png" />)
+    <span class="skw">click</span>(<img src="1504574762975.png" />)
+    <span class="skw">click</span>(Pattern(<img src="1504575044149.png" />).targetOffset(<span class="dig">350</span>,-<span class="dig">48</span>))
+    <span class="skw">click</span>(<img src="1504575081374.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575120079.png" />)
+    <span class="kw">if</span> exists (<img src="1504575136094.png" />):
+        <span class="skw">click</span>(<img src="1504575136094.png" />)
+        <span class="skw">click</span>(<img src="1504575147136.png" />)
+    <span class="skw">wait</span> (<span class="dig">60</span>)
+<span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">2</span>):
+    <span class="skw">click</span>(<img src="1504574044303.png" />)
+    <span class="skw">click</span>(<img src="1504574071179.png" />)
+    <span class="skw">click</span>(<img src="1504574084403.png" />)
+    <span class="skw">click</span>(<img src="1504574094058.png" />)
+    <span class="skw">click</span>(<img src="1504574101139.png" />)
+    <span class="skw">click</span>(<img src="1504574113372.png" />)
+    <span class="skw">click</span>(<img src="1504574126632.png" />)
+    <span class="skw">click</span>(<img src="1504574084403.png" />)
+    <span class="skw">click</span>(<img src="1504574094058.png" />)
+    <span class="skw">click</span>(<img src="1504574101139.png" />)
+    <span class="skw">click</span>(<img src="1504574113372.png" />)
+    <span class="skw">click</span>(<img src="1504574169505.png" />)
+    <span class="skw">click</span>(<img src="1504574188494.png" />)
+    <span class="skw">find</span>(<img src="1504574750117.png" />)
+    <span class="skw">click</span>(<img src="1504574762975.png" />)
+    <span class="skw">click</span>(Pattern(<img src="1504577595688.png" />).targetOffset(<span class="dig">345</span>,-<span class="dig">55</span>))
+    <span class="skw">click</span>(<img src="1504575081374.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575120079.png" />)
+    <span class="kw">if</span> exists (<img src="1504575136094.png" />):
+        <span class="skw">click</span>(<img src="1504575136094.png" />)
+        <span class="skw">click</span>(<img src="1504575147136.png" />)
+    <span class="skw">wait</span> (<span class="dig">60</span>)
+<span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">2</span>):
+    <span class="skw">click</span>(<img src="1504574044303.png" />)
+    <span class="skw">click</span>(<img src="1504574071179.png" />)
+    <span class="skw">click</span>(<img src="1504574084403.png" />)
+    <span class="skw">click</span>(<img src="1504574094058.png" />)
+    <span class="skw">click</span>(<img src="1504574101139.png" />)
+    <span class="skw">click</span>(<img src="1504574113372.png" />)
+    <span class="skw">click</span>(<img src="1504574126632.png" />)
+    <span class="skw">click</span>(<img src="1504574084403.png" />)
+    <span class="skw">click</span>(<img src="1504574094058.png" />)
+    <span class="skw">click</span>(<img src="1504574101139.png" />)
+    <span class="skw">click</span>(<img src="1504574113372.png" />)
+    <span class="skw">click</span>(<img src="1504574169505.png" />)
+    <span class="skw">click</span>(<img src="1504574188494.png" />)
+    <span class="skw">find</span>(<img src="1504574750117.png" />)
+    <span class="skw">click</span>(<img src="1504574762975.png" />)
+    <span class="skw">click</span>(Pattern(<img src="1504577648287.png" />).targetOffset(<span class="dig">319</span>,-<span class="dig">47</span>))
+    <span class="skw">click</span>(<img src="1504575081374.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575120079.png" />)
+    <span class="kw">if</span> exists (<img src="1504575136094.png" />):
+        <span class="skw">click</span>(<img src="1504575136094.png" />)
+        <span class="skw">click</span>(<img src="1504575147136.png" />)
+    <span class="skw">wait</span> (<span class="dig">60</span>)
+<span class="kw">for</span> step <span class="kw">in</span> range (<span class="dig">2</span>):
+    <span class="skw">click</span>(<img src="1504574044303.png" />)
+    <span class="skw">click</span>(<img src="1504574071179.png" />)
+    <span class="skw">click</span>(<img src="1504574084403.png" />)
+    <span class="skw">click</span>(<img src="1504574094058.png" />)
+    <span class="skw">click</span>(<img src="1504574101139.png" />)
+    <span class="skw">click</span>(<img src="1504574113372.png" />)
+    <span class="skw">click</span>(<img src="1504574126632.png" />)
+    <span class="skw">click</span>(<img src="1504574084403.png" />)
+    <span class="skw">click</span>(<img src="1504574094058.png" />)
+    <span class="skw">click</span>(<img src="1504574101139.png" />)
+    <span class="skw">click</span>(<img src="1504574113372.png" />)
+    <span class="skw">click</span>(<img src="1504574169505.png" />)
+    <span class="skw">click</span>(<img src="1504574188494.png" />)
+    <span class="skw">find</span>(<img src="1504574750117.png" />)
+    <span class="skw">click</span>(<img src="1504574762975.png" />)
+    <span class="skw">click</span>(Pattern(<img src="1504577689692.png" />).targetOffset(<span class="dig">343</span>,-<span class="dig">59</span>))
+    <span class="skw">click</span>(<img src="1504575081374.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575096038.png" />)
+    <span class="skw">click</span>(<img src="1504575120079.png" />)
+    <span class="kw">if</span> exists (<img src="1504575136094.png" />):
+        <span class="skw">click</span>(<img src="1504575136094.png" />)
+        <span class="skw">click</span>(<img src="1504575147136.png" />)
+    <span class="skw">wait</span> (<span class="dig">60</span>)
+App.Switch (<h3>ERROR: EOF in multi-line statement</h3>
+</font></pre>
+</pre>
+</body>
+</html>
